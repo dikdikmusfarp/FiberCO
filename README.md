@@ -5,7 +5,7 @@ Analisis performa infrastruktur, Servco, dan monetisasi media FiberCo untuk peri
 Isi folder:
 
 - Query lengkap ada di `sql/`. Penomoran file saya buat mengikuti urutan pertanyaan di tiap section biar gampang dicocokkan.
-- Executive summary (PDF) saya taruh terpisah di folder ini.
+- Executive summary ada di `Executive Summary.pdf`.
 - Engine yang saya pakai DuckDB. Semua query bisa dijalankan ulang di atas lima tabel sumber: homepass, subscription_snapshot, servco, media_package, dan region_master.
 
 ## Dashboard Tableau Public
@@ -89,6 +89,6 @@ Query pendukung: `13a_technology_evidence.sql` sampai `13g_product_margin_eviden
 ```
 submission/
 ├── README.md
-├── executive_summary.pdf   (menyusul, termasuk link Tableau Public)
+├── Executive Summary.pdf
 └── sql/                     (semua query, dinomori sesuai urutan pertanyaan)
 ```
